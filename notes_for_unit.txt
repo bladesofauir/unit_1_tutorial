@@ -1,0 +1,9 @@
+js: This folder holds your custom JavaScript files, in which you will write the script to make your website—including its web map—dynamic and interactive.
+
+lib: This folder holds any third-party JavaScript code libraries you choose to download and host. These will eventually include jQuery.js, Leaflet.js, D3.js, and potentially others. Some code libraries come with their own CSS stylesheets and images; leave these within the library's directory and place the entire directory within the lib folder to avoid confusion.
+
+css: This folder holds your custom CSS stylesheets.
+
+data: This folder holds data files used to create your thematic web maps, and thus is not necessary for all website.  The data folder can hold CSV, GeoJSON, and other formats that we will cover later. You also might wish to keep original Esri Shapefiles in it; these should go in a shapefiles subdirectory within the data folder, since a shapefile in itself is technically a file directory just like a website.
+
+img: This folder holds any images used in your website.
